@@ -61,7 +61,7 @@ public class ControladoraLogica {
         
         //Seteamos nuevos valores del dueño
         Duenio dueno = this.buscarDuenio(masco.getUnDuenio().getId_duenio());
-        dueno.setNombre(color);
+        dueno.setNombre(nombreDuenio);
         dueno.setCelDuenio(celDuenio);
         
         //llamar al modificar dueño
